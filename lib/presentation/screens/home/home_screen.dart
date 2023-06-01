@@ -4,6 +4,7 @@ import 'package:widgets_app/config/menu/menu_items.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
+  static const String name = 'home_screen';
 
   @override
   Widget build(BuildContext context) {
@@ -51,6 +52,7 @@ class _CustomListTile extends StatelessWidget {
         color: colors.primary,
       ),
       onTap: () {
+        // context.pushNamed(CardsScreen.name);
         context.push(menuItem.url);
       },
     );
