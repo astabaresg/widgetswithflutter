@@ -45,4 +45,3 @@ app.*.map.json
 
 # Another files
 pubspec.lock
-lib/presentation/screens/cards/cards_screen.dart
