@@ -159,7 +159,7 @@ class _ImageCard extends StatelessWidget {
         children: [
           Center(
             child: Image.network(
-              'https://picsum.photos/id/${elevation.toInt()}/600/350',
+              'https://cdn.leonardo.ai/users/3aecbe47-5904-4162-ab5b-e11aa7fad5f9/generations/38c457e5-4c00-4370-b780-e5d76c156dbb/variations/Default_A_detailed_illustration_of_clouds_quilled_paper_intric_0_38c457e5-4c00-4370-b780-e5d76c156dbb_1.jpg',
               height: 350,
               fit: BoxFit.cover,
             ),
