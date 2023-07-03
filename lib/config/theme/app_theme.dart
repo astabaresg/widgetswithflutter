@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 const colorList = <Color>[
-  Color(0xFFBDEDE0),
-  Color(0xFFBBDBD1),
-  Color(0xFFB6B8D6),
-  Color(0xFF7E78D2),
-  Color(0xFF6F58C9),
-  Color(0xFF22577A),
-  Color(0xFF38A3A5),
-  Color(0xFF57CC99),
-  Color(0xFF80ED99),
-  Color(0xFFC7F9CC)
+  Color(0xFFBDEDE0), // 0
+  Color(0xFFBBDBD1), // 1
+  Color(0xFFB6B8D6), // 2
+  Color(0xFF7E78D2), // 3
+  Color(0xFF6F58C9), // 4
+  Color(0xFF22577A), // 5
+  Color(0xFF38A3A5), // 6
+  Color(0xFF57CC99), // 7
+  Color(0xFF80ED99), // 8
+  Color(0xFFC7F9CC) // 9
 ];
 
 class AppTheme {

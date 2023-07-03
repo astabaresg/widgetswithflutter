@@ -27,8 +27,8 @@ class MainApp extends ConsumerWidget {
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
       themeMode: theme,
-      theme: AppTheme(selectedColor: 6).getTheme(),
-      darkTheme: AppTheme(selectedColor: 8).getDarkTheme(),
+      theme: AppTheme(selectedColor: 4).getTheme(),
+      darkTheme: AppTheme(selectedColor: 4).getDarkTheme(),
       // home: const HomeScreen(),
       // routes: {
       //   '/buttons': (context) => const ButtonsScreen(),
