@@ -22,13 +22,14 @@ class MainApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = ref.watch(themeProvider);
+    final colorSelected = ref.watch(selectedColorProvider);
     return MaterialApp.router(
       title: 'Flutter Widgets',
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
       themeMode: theme,
-      theme: AppTheme(selectedColor: 4).getTheme(),
-      darkTheme: AppTheme(selectedColor: 4).getDarkTheme(),
+      theme: AppTheme(selectedColor: colorSelected).getTheme(),
+      darkTheme: AppTheme(selectedColor: colorSelected).getDarkTheme(),
       // home: const HomeScreen(),
       // routes: {
       //   '/buttons': (context) => const ButtonsScreen(),
