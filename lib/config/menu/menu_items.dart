@@ -40,7 +40,12 @@ const appMenuItems = <MenuItem>[
       title: 'InfiniteScroll y Pull',
       subtitle: 'Listas infinitas y pull to refresh',
       url: '/infinite',
-      icon: Icons.list_alt_rounded)
+      icon: Icons.list_alt_rounded),
+  MenuItem(
+      title: 'Counter Screen',
+      subtitle: 'Implementación de riverpod',
+      url: '/counter',
+      icon: Icons.add_circle_outline_rounded),
 ];
 
 class MenuItem {
